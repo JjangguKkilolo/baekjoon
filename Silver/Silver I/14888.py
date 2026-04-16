@@ -3,8 +3,8 @@ A = list(map(int,input().split()))
 
 op_counts = list(map(int, input().split()))
 
-max_a = -1e9
-min_a = 1e9
+max_a = -1e10
+min_a = 1e10
 
 def backtrack(index, current_total, ops):
     global max_a, min_a
